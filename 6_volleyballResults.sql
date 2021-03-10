@@ -1,4 +1,9 @@
-CREATE PROCEDURE volleyballResults()
-BEGIN
-    SELECT * FROM results ORDER BY wins;
+CREATE PROCEDURE volleyballResults() BEGIN
+SELECT
+    *
+FROM
+    results
+ORDER BY
+    wins;
+
 END
